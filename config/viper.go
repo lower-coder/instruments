@@ -1,9 +1,10 @@
+// package config viper.go
 package config
 
 import "github.com/spf13/viper"
 
-// New 创建一个 viper 实例
+// NewViper for config wrapper.
 //  @return *viper.Viper 
-func New() *viper.Viper {
+func NewViper() *viper.Viper {
 	return viper.New()
 }

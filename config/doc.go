@@ -1,2 +1,2 @@
-// package 配置工具 
+// package config wrapper. 
 package config  
